@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    background-color: rgb(233, 233, 233);
+}
+
+header {
+    height: 150px;
+}
+
+footer {
+    height: 150px;
+}
+
+#container{
+    height: 600px;
+}
+
+#form {
+    margin: auto;
+    height: 100%;
+    width: 380px;
+    background-color: white;
+    border: 1px solid #c7c7c7;
+}
