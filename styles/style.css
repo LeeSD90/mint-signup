@@ -1,15 +1,33 @@
 body {
     margin: 0;
     background-color: #ECEEF1;
+    font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 12px;
+    color: rgb(76,76,76);
 }
+
+a:visited{
+    color: #0077C5;
+}
+
+a:link{
+    color: #0077C5;
+    text-decoration: none;
+}
+
+/* Header */
 
 header {
     height: 150px;
 }
 
-footer {
-    margin-top: 35px;
-    height: 150px;
+.large-logo {
+    display: block;
+    margin: auto;
+    width: 118px;
+    height: 35px;
 }
 
 .btn-submit{
@@ -25,10 +43,25 @@ footer {
 }
 
 #sign-in{
-    text-align: right;
+    display: flex;
+    justify-content: flex-end;
     margin: 15px;
     height: 50%;
 }
+
+#sign-in button i {
+    padding-right: 10px;
+}
+
+.text{
+    text-align: center;
+}
+
+.text p{
+    margin: 0;
+}
+
+/* Container */
 
 #container{
     height: 600px;
@@ -42,21 +75,33 @@ footer {
     border: 1px solid #c7c7c7;
 }
 
-#logo {
-    width: 20%;
-    margin: 0 auto;
+
+/* Footer */
+
+footer {
+    width: 100%;
+    margin-top: 35px;
+    height: 150px;
 }
 
-.large-logo {
-    display: block;
-    margin: auto;
-    width: 118px;
-    height: 35px;
+footer p {
+    max-width: 880px;
+    text-align: center;
+    margin: 0 auto 0 auto;
+}
+
+.quick-link{
+    margin-right: 10px;
+}
+
+#footer-text{
+    margin: 0 auto 0 auto;
+    width: 50%;
 }
 
 .small-logo{
     display: block;
-    margin: auto;
+    margin: 0 auto 20px auto;
     width: 75px;
     height: 20px;
 }
