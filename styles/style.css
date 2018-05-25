@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: rgb(233, 233, 233);
+    background-color: #ECEEF1;
 }
 
 header {
@@ -8,7 +8,26 @@ header {
 }
 
 footer {
+    margin-top: 35px;
     height: 150px;
+}
+
+.btn-submit{
+    background: #0077C5;
+    border-radius: 4px;
+    border: 1px solid #4c4c4c;
+    padding: 0 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: normal;
+    height: 34px;
+    margin-left: 10px;
+}
+
+#sign-in{
+    text-align: right;
+    margin: 15px;
+    height: 50%;
 }
 
 #container{
@@ -21,4 +40,23 @@ footer {
     width: 380px;
     background-color: white;
     border: 1px solid #c7c7c7;
+}
+
+#logo {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.large-logo {
+    display: block;
+    margin: auto;
+    width: 118px;
+    height: 35px;
+}
+
+.small-logo{
+    display: block;
+    margin: auto;
+    width: 75px;
+    height: 20px;
 }
