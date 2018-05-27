@@ -67,7 +67,7 @@ header {
     height: 600px;
 }
 
-#form {
+#sign-in-form {
     margin: auto;
     height: 100%;
     width: 380px;
@@ -75,6 +75,47 @@ header {
     border: 1px solid #c7c7c7;
 }
 
+#sign-in-form hr{
+    margin: 0 30px;
+    border: 0.5px solid rgb(121,121,121, 0.1);
+}
+
+#logos{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 25px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+#logos li{
+    margin: 0 5px;
+}
+
+.turbo-logo{
+    background-image: url("https://accounts.intuit.com/images/v2/ecosystem_logos_new.png");
+    background-position: 0 27px;
+    height: 23px;
+    width: 101px;
+    display: block;
+}
+
+.quickbooks-logo{
+    background-image: url("https://accounts.intuit.com/images/v2/ecosystem_logos_new.png");
+    background-position: 343px 27px;
+    height: 23px;
+    width: 126px;
+    display: block;
+}
+
+.mint-logo{
+    background-image: url("https://accounts.intuit.com/images/v2/ecosystem_logos_new.png");
+    background-position: 204px 27px;
+    height: 23px;
+    width: 64px;
+    display: block;
+}
 
 /* Footer */
 
