@@ -67,7 +67,7 @@ header {
     height: 600px;
 }
 
-#sign-in-form {
+#sign-in-form-container {
     margin: auto;
     height: 100%;
     width: 380px;
@@ -75,7 +75,7 @@ header {
     border: 1px solid #c7c7c7;
 }
 
-#sign-in-form hr{
+#sign-in-form-container hr{
     margin: 0 30px;
     border: 0.5px solid rgb(121,121,121, 0.1);
 }
@@ -115,6 +115,30 @@ header {
     height: 23px;
     width: 64px;
     display: block;
+}
+
+#form-text{
+    margin: 0 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#form-text h1{
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0;
+}
+
+#form-text p{
+    margin: 0;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 1.3;
+}
+
+#form-text a{
+    font-size: 13px;
 }
 
 /* Footer */
